@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFC0CB; /* Pink color */
+  background-image: url(../Pictures/ba1b7ee52e7d1bc249a6d3986a5507ab.gif);
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #333; /* Black color */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #f4037b; /* Pink color */
+  color: #ff004c; /* White color */
+  border-radius: 5px;
+  
+}
+
+button:hover {
+  background-color: #0c0007; /* Lighter pink color on hover */
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFC0CB; /* Pink color */
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #6495ED; /* Cornflower blue color */
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFC0CB; /* Pink color */
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #000; /* Black color */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#response {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* Additional styles for Yes response */
+#yesResponse {
+  color: #FF69B4; /* Pink color */
+}
+
+/* Additional styles for No response */
+#noResponse {
+  color: #6495ED; /* Cornflower blue color */
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../Pictures/R.jfif'); 
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #fb044a; /* Pink color */
+}
+
+/* Additional styling for thank you page */
+}
