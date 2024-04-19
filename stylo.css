@@ -1,0 +1,136 @@
+.body{
+    background-color:white;
+    background-position: 100%;
+    max-width: 100%;
+    width: 1500px;
+    padding: 20px;
+    height: 900px;
+    background-image: url(../Untitled.png);
+    background-size: cover;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #911010;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 10px solid #c52525;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 50px;
+  text-align: center;
+}
+/* Add your styles here */
+header {
+    background-color: #333;
+    color: #4626fd;
+    padding: 10px;
+}
+h1 {
+    color: #4626fd;
+}
+h3{
+    color: #c52525;
+}
+h4{
+    color: rgb(255, 0, 140);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ecdddd;
+    text-decoration: none;
+}
+
+.main {
+    padding: 20px;
+}
+
+.subscription-container {
+    margin-top: 20px;
+}
+
+.subscription-container input[type="email"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.subscription-container button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart-btn {
+    background-color: #000269;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: #363636;
+    position: absolute;
+    margin-bottom: 60;
+    margin-top: 70%;
+    
+}
+
+#cart {
+    /* border : 1px solid red; */
+    border: 5px solid rgb(66, 0, 247);
+
+}
+#quick_nav {
+    border: 1px solid black;
+}
+#empty_cart {
+    display: none;
+}
+#headings {
+    display: flex;
+    justify-content: space-around;
+}
+#parent > div {
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+    width : 50%
+}
+#order_summray {
+    border: 2px solid green;
+}
+#checkout_btns {
+    display : flex;
+    flex-direction: column;
+
+}
+button {
+    cursor : pointer;
+}

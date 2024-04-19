@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Fashion Website</title>
+    <link rel="stylesheet" href="stylo.css"> <!-- You can link your existing stylesheet here -->
+    <style>
+        /* Additional styling specific to the login page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            background-image: url(../Untitled.png);
+            background-size: cover;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+
+        .form-group .signup-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .form-group .signup-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .form-group .signup-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <div class="body">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./Index.html">Home</a></li>
+                    <li><a href="./About.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    <br>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="#" method="post"> <!-- Replace "#" with your actual form action -->
+            <div class="form-group">
+                <label for="username">Username or Email:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <div class="form-group signup-link">
+            <p>Don't have an account? <a href="../Fashion Website/Sign Up.html">Sign up</a>.</p> <!-- Replace "signup.html" with your actual signup page -->
+        </div>
+    </div>
+</body>
+</html>

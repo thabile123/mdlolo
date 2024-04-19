@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Fashion Website</title>
+    <link rel="stylesheet" href="stylo.css"> <!-- You can link your existing stylesheet here -->
+    <style>
+      body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            background-image: url(../Untitled.png);
+            background-size:  cover;
+        }
+
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+           
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #080072;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+
+        .form-group .guest-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .form-group .guest-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .form-group .guest-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <div class="body">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./Index.html">Home</a></li>
+                    <li><a href="./About.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    <br>
+</head>
+<body>
+    <div class="container">
+        <h2>DRIPYS Sign Up Form</h2>
+        <form action="#" method="post"> <!-- Replace "#" with your actual form action -->
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+        <div class="form-group guest-link">
+            <p>Or continue as a <a href="../Fashion Website/Index.html">guest</a>.</p> <!-- Replace "#" with your guest access link -->
+        </div>
+        <div class="form-group guest-link">
+            <p>Already have an account? <a href="../Fashion Website/log in.html">Log in</a>.</p> <!-- Replace "login.html" with your actual login page -->
+        </div>
+    </div>
+</body>
+</html>
