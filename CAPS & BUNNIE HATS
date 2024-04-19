@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Home</title>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+    <style>
+    .container {
+        width: 200%;
+        height: 300px; /* Adjust the height as needed */
+        overflow:COVER ;
+      }
+      div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+    
+      </style>
+    <div class="body">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="welcome-section">
+                <h1>CAPS & BUNNIE HATS</h1>
+                <h>PROTECT YOURSELF FROM SUNRAYS</h>
+                <body>
+                    <div class="gallery">
+                        <a target="_blank" href="../Bnnie hats/bannie hat.webp">
+                      <img  src="../Bnnie hats/bannie hat.webp"  alt="Cinque terre" width="600" height="400">
+                      </a>
+                      <div class="desc"> BUNNIE HAT</div>
+                <p>$49.99
+                    10% sale
+                </p>
+                </div>
+                       <div class="gallery">
+                        <a target="_blank" href="../Bnnie hats/beige bunnie hat.webp">
+                      <img src="../Bnnie hats/beige bunnie hat.webp" alt="forest" width="600" height="400">
+                      </a>
+                      <div class="desc">BIEGE HAT</div>
+                <p>$39.99
+                    20% off
+                </p>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="../Caps/Basball cap.webp">
+                      <img src="../Caps/Basball cap.webp" alt="shoes" width="600" height="400" >
+                      <div class="desc">BASEBALL CAP</div>
+                <p>$49.99
+                    sale
+                </p>
+                    </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="../Caps/Hazel blue cap.webp">
+                      <img src="../Caps/Hazel blue cap.webp" alt="Cinque terre" width="600" height="400">
+                </a>
+                      <div class="desc">HAZEL BLUE CAP</div>
+                <p>$49.99
+                    sale
+                </p>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="../Bnnie hats/Crossed knitted hat.webp">
+                      <img src="../Bnnie hats/Crossed knitted hat.webp" alt="shoes" width="600" height="400" >
+                      <div class="desc">CROSSED KNITTED HAT</div>
+                <p>$49.99
+                    sale
+                </p>
+                    </div>
+
+                    <div class="gallery">
+                        <a target="_blank" href="../Caps/Khaki Cap.webp">
+                      <img src="../Caps/Khaki Cap.webp" alt="forest" width="600" height="400" >
+                    </a>
+                      <div class="desc">KHAKI CAP</div>
+                <p>$59.99
+                    sale
+                </p>
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="../Bnnie hats/Pink bunnie knit hat.webp">
+                      <img src="../Bnnie hats/Pink bunnie knit hat.webp" alt="shoes" width="600" height="400">
+                    </a>
+                      <div class="desc">PINK BUNNIE KNIT HAT</div>
+                <p>$52.99</p>
+                </div>
+                
+                <div class="gallery">
+                    <a target="_blank" href="../Caps/Pink smiling baseball Cap.webp">
+                      <img src="../Caps/Pink smiling baseball Cap.webp" alt="shoes" width="600" height="400" >
+                    </a>
+                      <div class="desc">PINK SMILING BASEBALL CAP</div>
+                <p>$60.99
+                    sale
+                </p>
+                    </div>
+                <div class="gallery">
+                    <a target="_blank" href="../Bnnie hats/whute. smile knitted hat.webp">
+                      <img src="../Bnnie hats/whute. smile knitted hat.webp" alt="shoes" width="600" height="400" >
+                      <div class="desc">PINK SMILE KNITTED HAT</div>
+                <p>$29.99
+                    sale
+                </p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="../Caps/White baseball Cap.webp">
+                      <img src="../Caps/White baseball Cap.webp" alt="shoes" width="600" height="400" >
+                      <div class="desc">WHITE BASEBALL CAP</div>
+                <p>$39.99
+                    sale
+                </p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="../Bnnie hats/whute. smile knitted hat.webp">
+                      <img src="../Bnnie hats/whute. smile knitted hat.webp" alt="shoes" width="600" height="400" >
+                      <div class="desc">SMILE KNIT HAT</div>
+                <p>$29.99
+                    sale
+                </p>
+                    </div>
+                    </body>   
+                
+            </section>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Home</title>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+    <style>
+    .container {
+        width: 200%;
+        height: 300px; /* Adjust the height as needed */
+        overflow: visible;
+      }
+      div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+    
+      </style>
+    <div class="body">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="welcome-section">
+                <h1>SHOES</h1>
+                <h>get your kicks ready</h>
+                <body>
+                    <div class="gallery">
+                        <a target="_blank" href="../t shirt/01_102829398_SI_00.webp">
+                      <img  src="../t shirt/133544851-800-1067.webp"  alt="Cinque terre" width="600" height="400">
+                      </a>
+                      <div class="desc"> STONE GAME TOP2</div>
+                <p>$539.99
+                    10% sale
+                </p>
+                </div>
+                       <div class="gallery">
+                        <a target="_blank" href="../t shirt/133561006-800-1067.webp">
+                      <img src="../t shirt/133570061-800-1067.webp" alt="forest" width="600" height="400">
+                      </a>
+                      <div class="desc"> DIESEL KICK</div>
+                <p>$399.99
+                    20% off
+                </p>
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="../t shirt/7d2943ac2458d7c8f346f80efb44f1d8.webp">
+                      <img src="../t shirt/7d2943ac2458d7c8f346f80efb44f1d8.webp" alt="Cinque terre" width="600" height="400">
+                </a>
+                      <div class="desc">SIVER RUN</div>
+                <p>$839.99
+                    sale
+                </p>
+                </div>
+
+                    <div class="gallery">
+                        <a target="_blank" href="../t shirt/Cool Bear Graphic Casual Fashion.webp">
+                      <img src="../t shirt/Cool Bear Graphic Casual Fashion.webp" alt="forest" width="600" height="400" >
+                    </a>
+                      <div class="desc">NIGHT RUN</div>
+                <p>$39.99
+                    sale
+                </p>
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="../t shirt/Cool Little Bear Print T-shirt.webp">
+                      <img src="../t shirt/Cool Little Bear Print T-shirt.webp" alt="shoes" width="600" height="400">
+                      <div class="desc">ZEBRA STRIPES</div>
+                <p>$902.99</p>
+                    </div>
+                
+        <div class="gallery">
+                    <a target="_blank" href="../t shirt/Crew  Blck Neck T-shirt.webp">
+                      <img src="../t shirt/Crew  Blck Neck T-shirt.webp" alt="shoes" width="600" height="400" >
+                      <div class="desc">SKATE SHOES</div>
+                <p>$239.99
+                    sale
+                </p>
+            </div>
+                <div class="gallery">
+                    <a target="_blank" href="../t shirt/Crew Neck T-shirt.webp">
+                      <img src="../t shirt/Crew Neck T-shirt.webp" alt="shoes" width="600" height="400" >
+                      <div class="desc">SKATE SHOES</div>
+                <p>$239.99
+                    sale
+                </p>
+                    </div>
+                    <div class="gallery">
+                        <a target="_blank" href="../t shirt/Loose Sports T-shirt.webp">
+                          <img src="../t shirt/Loose Sports T-shirt.webp" alt="shoes" width="600" height="400" >
+                          <div class="desc">SKATE SHOES</div>
+                    <p>$239.99
+                        sale
+                    </p>
+                        </div>
+                    </body>   
+                
+            </section>

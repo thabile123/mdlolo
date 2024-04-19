@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Your Shopping Cart</h1>
+        <div class="cart-items">
+            <!-- This is where the items in the cart will be displayed -->
+            <!-- Example: -->
+            <div class="cart-item">
+                <img src="path/to/item-image.jpg" alt="Item Image">
+                <div class="item-details">
+                    <h2>Item Name</h2>
+                    <p>Price: $XX.XX</p>
+                    <p>Quantity: 1</p>
+                    <button class="remove-from-cart-btn">Remove</button>
+                </div>
+            </div>
+            <!-- Add more cart items here as needed -->
+        </div>
+        
+        <div class="cart-total">
+            <h2>Total: $XX.XX</h2>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 YourFashionWebsite. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Home</title>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+    <style>
+    .container {
+        width: 200%;
+        height: 300px; /* Adjust the height as needed */
+        overflow:COVER ;
+      }
+      div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+    
+      </style>
+    <div class="body">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="welcome-section">
+                <h1>JEWELS ACCESSORIES</h1>
+                <h>NEVER LOOSE TIME & STAY SHINE BRIGHT LIKE A DIAMOND</h>
+                <body>
+                    <div class="gallery">
+                        <a target="_blank" href="../jewels and accessories/3pcs men's watch.webp">
+                      <img  src="../jewels and accessories/3pcs men's watch.webp"  alt="Cinque terre" width="600" height="400">
+                      </a>
+                      <div class="desc"> 3PCS MEN'S WATCH</div>
+                <p>$69.99
+                    10% sale
+                </p>
+                </div>
+                       <div class="gallery">
+                        <a target="_blank" href="../jewels and accessories/butterfly ring.jpg">
+                      <img src="../jewels and accessories/butterfly ring.jpg" alt="forest" width="600" height="400">
+                      </a>
+                      <div class="desc">BUTTERFLY RING</div>
+                <p>$39.99
+                    20% off
+                </p>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="../jewels and accessories/crystal tiara.jpg">
+                      <img src="../jewels and accessories/crystal tiara.jpg" alt="shoes" width="600" height="400" >
+                      <div class="desc">CRYSTAL TIARA</div>
+                <p>$239.99
+                    sale
+                </p>
+                    </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="../jewels and accessories/elegant 6pcs set.webp">
+                      <img src="../jewels and accessories/elegant 6pcs set.webp" alt="Cinque terre" width="600" height="400">
+                </a>
+                      <div class="desc">ELEGANCE 6PCS SET</div>
+                <p>$839.99
+                    sale
+                </p>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="../jewels and accessories/handy jewel.jpg">
+                      <img src="../jewels and accessories/handy jewel.jpg" alt="shoes" width="600" height="400" >
+                      <div class="desc">HANDY JEWEL</div>
+                <p>$49.99
+                    sale
+                </p>
+                    </div>
+
+                    <div class="gallery">
+                        <a target="_blank" href="../jewels and accessories/man jewel.jpg">
+                      <img src="../jewels and accessories/man jewel.jpg" alt="forest" width="600" height="400" >
+                    </a>
+                      <div class="desc">MAN JEWEL</div>
+                <p>$59.99
+                    sale
+                </p>
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="../jewels and accessories/prom jewels.jpg">
+                      <img src="../jewels and accessories/prom jewels.jpg" alt="shoes" width="600" height="400">
+                    </a>
+                      <div class="desc">PROM JEWELRY</div>
+                <p>$52.99</p>
+                </div>
+                
+                <div class="gallery">
+                    <a target="_blank" href="../jewels and accessories/royal crown.webp">
+                      <img src="../jewels and accessories/royal crown.webp" alt="shoes" width="600" height="400" >
+                    </a>
+                      <div class="desc">ROYAL CROWN</div>
+                <p>$60.99
+                    sale
+                </p>
+                    </div>
+                <div class="gallery">
+                    <a target="_blank" href="../jewels and accessories/stainless tag.webp">
+                      <img src="../jewels and accessories/stainless tag.webp" alt="shoes" width="600" height="400" >
+                      <div class="desc">STAINLESS TAG</div>
+                <p>$29.99
+                    sale
+                </p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="../jewels and accessories/wedding jewels.jpg">
+                      <img src="../jewels and accessories/wedding jewels.jpg" alt="shoes" width="600" height="400" >
+                      <div class="desc">WEDDING JEWEL</div>
+                <p>$89.99
+                    sale
+                </p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank" href="../jewels and accessories/stylish accessories.jpg">
+                      <img src="../jewels and accessories/stylish accessories.jpg" alt="shoes" width="600" height="400" >
+                      <div class="desc">STYLISH JEWEL</div>
+                <p>$29.99
+                    sale
+                </p>
+                    </div>
+                    </body>   
+                
+            </section>
